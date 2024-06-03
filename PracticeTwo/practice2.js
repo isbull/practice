@@ -46,6 +46,8 @@ function menorQue(num1,num2) {
     console.log(`Ire apá pa que vea a ver que puso le dejo los datos ${num1} ${num2}`);
 }
 }
+
+
 console.log(suma(2,3));
 console.log(iguales(5,6));
 console.log(mayorQue(8,8));
