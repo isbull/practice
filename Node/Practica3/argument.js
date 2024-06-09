@@ -64,11 +64,11 @@ const main =async () =>{
         if( args.includes('--log')&& args.includes('--delete'))
             throw new Error (`No es posible combinar el argumento "--log" con "--delete"`);
 
-
+// --dirname nos da la ruta absoluta del directorio
         if (args.includes('--dirname'))
             {console.log('Directorio: ${dirname}');
     }
-
+// Ruta absoluta del archivo en ejecución
     if (args.includes('--filename')){
         console.log(`Archivo: ${filename}`);
     }
